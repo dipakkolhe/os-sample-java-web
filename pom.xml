@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>openshift</groupId>
-  <artifactId>getting-started-tomcat</artifactId>
+  <artifactId>project002-web</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>getting-started-tomcat Maven Webapp</name>
+  <name>project002-web Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
 
@@ -25,7 +25,7 @@
               <artifactId>maven-war-plugin</artifactId>
               <version>2.6</version>
               <configuration>
-                  <warName>ROOT</warName>
+                  <warName>gmap</warName>
               </configuration>
           </plugin>
       </plugins>
